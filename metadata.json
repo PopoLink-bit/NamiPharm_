@@ -1,0 +1,6 @@
+{
+  "name": "Nami Pharm Supplements",
+  "description": "Premium Landing Page with interactive Neuro-Synaptic DNA Matrix Decoder (N.S.D.M.D) for personalized supplements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

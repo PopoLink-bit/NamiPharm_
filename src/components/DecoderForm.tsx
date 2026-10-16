@@ -235,12 +235,12 @@ function DecoderForm({ onDecode }: DecoderFormProps) {
                       <span className={`${status === 'active' ? 'text-neon-gold font-bold' : status === 'done' ? 'text-gray-500' : 'text-gray-700'}`}>
                         {idx + 1}. {step}
                       </span>
-                      <span className={`text-[10px] font-semibold ${status === 'active' ? 'text-neon-gold animate-pulse' : status === 'done' ? 'text-emerald-400' : 'text-gray-800'}`}>
+                      <span className={`text-[10px] font-semibold ${status === 'active' ? 'text-neon-gold animate-pulse' : status === 'done' ? 'text-gray-500' : 'text-gray-800'}`}>
                         {status === 'active' 
                           ? 'PRZETWARZANIE...' 
                           : status === 'done' 
-                            ? '[ ZAKOŃCZONO ]' 
-                            : '[ CZEKA ]'}
+                            ? 'ZAKOŃCZONO' 
+                            : 'CZEKA'
                       </span>
                     </div>
                   );

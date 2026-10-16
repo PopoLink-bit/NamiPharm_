@@ -240,7 +240,7 @@ function DecoderForm({ onDecode }: DecoderFormProps) {
                           ? 'PRZETWARZANIE...' 
                           : status === 'done' 
                             ? 'ZAKOŃCZONO' 
-                            : 'CZEKA'
+                            : 'CZEKA'}
                       </span>
                     </div>
                   );
